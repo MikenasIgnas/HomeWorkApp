@@ -65,8 +65,8 @@ const CreatePost = () => {
             justifyContent: 'space-between',
           }}
             >
-              <Button onClick={handleCancel} variant="contained">Cancel</Button>
               <Button onClick={handleCreate} variant="contained">Create</Button>
+              <Button onClick={handleCancel} variant="contained">Cancel</Button>
             </Box>
           </Box>
         </Paper>

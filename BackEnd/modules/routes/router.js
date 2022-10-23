@@ -9,7 +9,7 @@ const {
     getUserPhoto, 
     createPost,
     getPostData,
-    deletePost
+    deletePost,
 } = require("../controllers/mainController")
 
 router.post("/userRegistration", emailValid, passwordsValid, userValid ,userRegistration)

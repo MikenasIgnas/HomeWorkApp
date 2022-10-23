@@ -78,7 +78,7 @@ const HomePage = () => {
               {`Welcome  ${username}`}
             </Typography>
             <Typography>{email}</Typography>
-            <TextField placeholder="photo URL" type="text" inputRef={photoRef} label="photo" />
+            <TextField placeholder="photo URL" type="text" inputRef={photoRef} label="Update Your Photo" />
             <Button onClick={updatePhoto}>Update Photo</Button>
             <Button onClick={showAllPosts} variant="contained">All Posts</Button>
           </Box>
